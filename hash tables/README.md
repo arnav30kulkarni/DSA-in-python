@@ -91,5 +91,7 @@ Example: `Counter("banana") → {'b':1, 'a':3, 'n':2}`.
 | Deletion             | O(1)        | O(1)          |
 | Iteration            | O(N)        | O(N)          |
 
+- `Counter` builds frequency counts in **O(N)** from an iterable, but single lookups and updates remain **O(1)**.
+
 ---
 
